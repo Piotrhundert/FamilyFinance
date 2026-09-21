@@ -1,12 +1,9 @@
-using FamilyFinance.Web.Data;
 using Microsoft.EntityFrameworkCore.Migrations;
 
 #nullable disable
 
 namespace FamilyFinance.Web.Data.Migrations;
 
-[Microsoft.EntityFrameworkCore.Infrastructure.DbContext(typeof(ApplicationDbContext))]
-[Migration("00000000000000_CreateIdentitySchema")]
 public partial class CreateIdentitySchema : Migration
 {
     protected override void Up(MigrationBuilder migrationBuilder)
